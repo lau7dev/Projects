@@ -4,7 +4,7 @@ game.Players.PlayerAdded:Connect(function(player)
 	leaderstats.Parent = player	
 	
 	local points = Instance.new("IntValue")
-	points.Name = "Monete"
+	points.Name = "Hypecoin"
 	points.Value = 0
 	points.Parent = leaderstats
 end)
